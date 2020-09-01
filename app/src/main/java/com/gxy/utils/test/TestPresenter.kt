@@ -22,6 +22,8 @@ class TestPresenter : BasePresenter<TestView>() {
                 if (data.status != 200) {
                     getView().showError()
                     return
+                    
+
                 }
 //                getView().showSuccess()
                 getView().onTestSuccess(data)
