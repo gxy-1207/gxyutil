@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:background="#f2f2f2"
+                android:id="@+id/iv_ta_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="12dp"
+                android:scaleType="fitXY" />
+
+            <View
+                android:background="#f2f2f2"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_alignTop="@+id/iv_ta_icon"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="6dp"
+                android:layout_toRightOf="@+id/iv_ta_icon"
+                android:text="12345"
+                android:textColor="#666666"
+                android:textSize="14sp" />
+
+            <View
+                android:background="#f2f2f2"
+                android:layout_width="50dp"
+                android:layout_height="@dimen/dp_10"
+                android:layout_alignBottom="@+id/iv_ta_icon"
+                android:layout_marginLeft="13dp"
+                android:layout_marginBottom="6dp"
+                android:layout_toRightOf="@+id/iv_ta_icon"
+                android:text="12345"
+                android:textColor="#B9B9B9"
+                android:textSize="11sp" />
+        </RelativeLayout>
+
+        <View
+            android:background="#f2f2f2"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+
+        <View
+            android:background="#f2f2f2"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+
+        <View
+            android:background="#f2f2f2"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="80dp"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="11dp">
+
+            <View
+                android:background="#f2f2f2"
+                android:layout_width="40dp"
+                android:layout_height="10dp"
+                android:textColor="#E13B38"
+                android:gravity="center_vertical"
+                android:textSize="13sp" />
+
+            <View
+                android:background="#f2f2f2"
+                android:layout_width="20dp"
+                android:layout_height="10dp"
+                android:layout_alignParentRight="true"
+                android:drawablePadding="7dp"
+                android:gravity="center_vertical"
+                android:text="10"
+                android:textSize="12sp"
+                android:textColor="#44A2F7" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
